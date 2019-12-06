@@ -30,5 +30,6 @@ describe('lib', () => {
     expect(spy).to.have.been.called.with(
       `High ${five.loud()}! ${five.upHigh()}`
     );
+    console.log.reset();
   });
 });
