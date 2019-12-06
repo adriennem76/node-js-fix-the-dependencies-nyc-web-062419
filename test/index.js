@@ -16,6 +16,7 @@ describe('lib', () => {
     lib('foo', spy);
 
     expect(spy).to.have.been.called.with('H-e-l-l-o-,- -f-o-o-.');
+    console.log.reset();
   });
 
 
